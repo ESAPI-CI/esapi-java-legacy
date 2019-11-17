@@ -1,5 +1,5 @@
 language: java
 jdk:
-- openjdk7
+- oraclejdk11
 after_success:
   - mvn clean cobertura:cobertura coveralls:report
